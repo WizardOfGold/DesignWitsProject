@@ -1,0 +1,503 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 OPR/113.0.0.0" version="24.7.10">
+  <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
+    <mxGraphModel dx="929" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4" value="createBuildings" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
+          <mxGeometry x="1530" y="128" width="320" height="1142" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-62" value="playerWantsResidential" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="4">
+          <mxGeometry x="17.5" y="112" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-63" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="4" source="Du099I9NiX_6U0h1zpHX-62" target="Du099I9NiX_6U0h1zpHX-68">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="225" y="245" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="225" y="145" />
+              <mxPoint x="225" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-68" value="playerWantsCommercial" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="4">
+          <mxGeometry x="16.25" y="285" width="167.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-66" value="Build Residential" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="4">
+          <mxGeometry x="40" y="215" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-64" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4" source="Du099I9NiX_6U0h1zpHX-62" target="Du099I9NiX_6U0h1zpHX-66">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="125" y="335" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-67" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4" source="Du099I9NiX_6U0h1zpHX-66" target="Du099I9NiX_6U0h1zpHX-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="275" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-77" value="Build Residential" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="4">
+          <mxGeometry x="40" y="395" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-78" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4" target="Du099I9NiX_6U0h1zpHX-77">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="125" y="515" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="99" y="355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-79" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4" source="Du099I9NiX_6U0h1zpHX-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="465" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-71" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="4" source="Du099I9NiX_6U0h1zpHX-68" target="Du099I9NiX_6U0h1zpHX-80">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="210" y="430" as="targetPoint" />
+            <mxPoint x="480" y="205" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="260" y="320" />
+              <mxPoint x="260" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-80" value="playerWantsCommercial" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="4">
+          <mxGeometry x="16.25" y="465" width="167.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-100" value="Build Commercial" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="4">
+          <mxGeometry x="40" y="575" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-101" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4" target="Du099I9NiX_6U0h1zpHX-100">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="125" y="695" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="99" y="535" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-102" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4" source="Du099I9NiX_6U0h1zpHX-100">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="645" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-103" value="playerWantsIndustrial" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="4">
+          <mxGeometry x="16.25" y="645" width="167.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-104" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="4" target="Du099I9NiX_6U0h1zpHX-127">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="183.75" y="862" as="targetPoint" />
+            <mxPoint x="183.75" y="682" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="210" y="682" />
+              <mxPoint x="210" y="877" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-105" value="Build Commercial" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="4">
+          <mxGeometry x="40" y="762" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-106" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="4" target="Du099I9NiX_6U0h1zpHX-105">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="100.24000000000001" y="755" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="99.24000000000001" y="715" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-130" value="playerWantsLandMark" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="4">
+          <mxGeometry x="17.5" y="942" width="167.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-56" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1275" y="160" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-57" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="Du099I9NiX_6U0h1zpHX-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-58" value="Start Simulation" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-59" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Du099I9NiX_6U0h1zpHX-58" target="Du099I9NiX_6U0h1zpHX-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1365" y="450" as="targetPoint" />
+            <mxPoint x="1365" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-60" value="Display Resources&lt;div&gt;And Map&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1395" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-61" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Du099I9NiX_6U0h1zpHX-60" target="Du099I9NiX_6U0h1zpHX-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1565" y="350" as="targetPoint" />
+            <mxPoint x="1565.0285714285715" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-65" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-93" value="Main" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="1200" y="128" width="330" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-127" value="playerWantsIndustrial" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1546.25" y="970" width="167.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-128" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Du099I9NiX_6U0h1zpHX-105" target="Du099I9NiX_6U0h1zpHX-127">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1634.76" y="970" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="1625" y="930" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-129" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1630" y="1070" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="1630" y="1040" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-131" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Du099I9NiX_6U0h1zpHX-137" source="Du099I9NiX_6U0h1zpHX-130">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1810" y="540" as="targetPoint" />
+            <mxPoint x="1713.75" y="1107" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1713" y="1107" />
+              <mxPoint x="1810" y="1107" />
+              <mxPoint x="1810" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-132" value="Build Landmark" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="1187" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-133" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Du099I9NiX_6U0h1zpHX-132">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1630.24" y="1180" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="1629.24" y="1140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-135" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Du099I9NiX_6U0h1zpHX-132" target="Du099I9NiX_6U0h1zpHX-137">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1800" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1630" y="1237" />
+              <mxPoint x="1810" y="1237" />
+              <mxPoint x="1810" y="270" />
+            </Array>
+            <mxPoint x="1625" y="1227" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-136" value="buildInfrastructure" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="1850" y="128" width="320" height="932" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-137" value="PlayerWantsRoads" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-136">
+          <mxGeometry x="17.5" y="112" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-138" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-136" source="Du099I9NiX_6U0h1zpHX-137" target="Du099I9NiX_6U0h1zpHX-139">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="225" y="245" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="225" y="145" />
+              <mxPoint x="225" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-139" value="PlayerWantsTrainTracks" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-136">
+          <mxGeometry x="16.25" y="285" width="167.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-140" value="Build Roads" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-136">
+          <mxGeometry x="40" y="215" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-141" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-136" source="Du099I9NiX_6U0h1zpHX-137" target="Du099I9NiX_6U0h1zpHX-140">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="125" y="335" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-142" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-136" source="Du099I9NiX_6U0h1zpHX-140" target="Du099I9NiX_6U0h1zpHX-139">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="275" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-143" value="Build Train Tracks" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-136">
+          <mxGeometry x="40" y="395" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-144" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-136" target="Du099I9NiX_6U0h1zpHX-143">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="125" y="515" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="99" y="355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-145" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-136" source="Du099I9NiX_6U0h1zpHX-143">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="465" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-146" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-136" source="Du099I9NiX_6U0h1zpHX-139" target="Du099I9NiX_6U0h1zpHX-147">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="210" y="430" as="targetPoint" />
+            <mxPoint x="480" y="205" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="260" y="320" />
+              <mxPoint x="260" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-147" value="PlayerWantsAirports" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-136">
+          <mxGeometry x="16.25" y="465" width="167.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-148" value="Build Airports" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-136">
+          <mxGeometry x="40" y="575" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-149" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-136" target="Du099I9NiX_6U0h1zpHX-148">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="125" y="695" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="99" y="535" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-170" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-136" target="Du099I9NiX_6U0h1zpHX-157">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="270" y="242" as="targetPoint" />
+            <mxPoint x="160" y="592" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="280" y="592" />
+              <mxPoint x="280" y="142" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-156" value="provideUtilities" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="2170" y="130" width="320" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-157" value="PlayerWantsWaterSupply" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-156">
+          <mxGeometry x="17.5" y="112" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-158" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-156" source="Du099I9NiX_6U0h1zpHX-157" target="Du099I9NiX_6U0h1zpHX-159">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="225" y="245" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="225" y="145" />
+              <mxPoint x="225" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-159" value="PlayerWantsElectricalStation" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-156">
+          <mxGeometry x="16.25" y="285" width="167.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-160" value="Build Roads" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-156">
+          <mxGeometry x="40" y="215" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-161" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-156" source="Du099I9NiX_6U0h1zpHX-157" target="Du099I9NiX_6U0h1zpHX-160">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="125" y="335" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-162" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-156" source="Du099I9NiX_6U0h1zpHX-160" target="Du099I9NiX_6U0h1zpHX-159">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="275" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-163" value="Build Electrical Station" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-156">
+          <mxGeometry x="40" y="395" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-164" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-156" target="Du099I9NiX_6U0h1zpHX-163">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="125" y="515" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="99" y="355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-165" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-156" source="Du099I9NiX_6U0h1zpHX-163">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="465" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-166" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-156" source="Du099I9NiX_6U0h1zpHX-159" target="Du099I9NiX_6U0h1zpHX-167">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="210" y="430" as="targetPoint" />
+            <mxPoint x="480" y="205" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="260" y="320" />
+              <mxPoint x="260" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-167" value="PlayerWantsWasteMan" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-156">
+          <mxGeometry x="16.25" y="465" width="167.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-168" value="Build Waste Management" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-156">
+          <mxGeometry x="40" y="575" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-169" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-156" target="Du099I9NiX_6U0h1zpHX-168">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="125" y="695" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="99" y="535" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-172" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-156">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="645" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="100" y="615" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-173" value="PlayerWantsSewageMan" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-156">
+          <mxGeometry x="16.25" y="645" width="167.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-174" value="Build Sewage Management" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-156">
+          <mxGeometry x="40" y="755" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-175" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-156" target="Du099I9NiX_6U0h1zpHX-174">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="125" y="875" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="99" y="715" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-176" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-156" target="Du099I9NiX_6U0h1zpHX-178">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="183.75" y="860" as="targetPoint" />
+            <mxPoint x="183.75" y="680" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="260" y="680" />
+              <mxPoint x="260" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-171" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Du099I9NiX_6U0h1zpHX-148" target="Du099I9NiX_6U0h1zpHX-157">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1950" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1950" y="753" />
+              <mxPoint x="2130" y="753" />
+              <mxPoint x="2130" y="270" />
+            </Array>
+            <mxPoint x="1640" y="753" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-177" value="provideUtilities" style="swimlane;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="2490" y="128" width="320" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-178" value="PlayerWantsWaterSupply" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-177">
+          <mxGeometry x="17.5" y="112" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-179" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-177" source="Du099I9NiX_6U0h1zpHX-178" target="Du099I9NiX_6U0h1zpHX-180">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="225" y="245" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="225" y="145" />
+              <mxPoint x="225" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-180" value="PlayerWantsElectricalStation" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-177">
+          <mxGeometry x="16.25" y="285" width="167.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-181" value="Build Roads" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-177">
+          <mxGeometry x="40" y="215" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-182" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-177" source="Du099I9NiX_6U0h1zpHX-178" target="Du099I9NiX_6U0h1zpHX-181">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="125" y="335" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-183" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-177" source="Du099I9NiX_6U0h1zpHX-181" target="Du099I9NiX_6U0h1zpHX-180">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="275" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-184" value="Build Electrical Station" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-177">
+          <mxGeometry x="40" y="395" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-185" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-177" target="Du099I9NiX_6U0h1zpHX-184">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="125" y="515" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="99" y="355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-186" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-177" source="Du099I9NiX_6U0h1zpHX-184">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="465" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-187" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-177" source="Du099I9NiX_6U0h1zpHX-180" target="Du099I9NiX_6U0h1zpHX-188">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="210" y="430" as="targetPoint" />
+            <mxPoint x="480" y="205" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="260" y="320" />
+              <mxPoint x="260" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-188" value="PlayerWantsWasteMan" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-177">
+          <mxGeometry x="16.25" y="465" width="167.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-189" value="Build Waste Management" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-177">
+          <mxGeometry x="40" y="575" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-190" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-177" target="Du099I9NiX_6U0h1zpHX-189">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="125" y="695" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="99" y="535" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-191" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-177">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="645" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="100" y="615" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-192" value="PlayerWantsSewageMan" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-177">
+          <mxGeometry x="16.25" y="645" width="167.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-193" value="Build Sewage Management" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="Du099I9NiX_6U0h1zpHX-177">
+          <mxGeometry x="40" y="755" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-194" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-177" target="Du099I9NiX_6U0h1zpHX-193">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="125" y="875" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint x="99" y="715" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-195" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Du099I9NiX_6U0h1zpHX-177" target="Du099I9NiX_6U0h1zpHX-193">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="183.75" y="860" as="targetPoint" />
+            <mxPoint x="183.75" y="680" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="260" y="680" />
+              <mxPoint x="260" y="775" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Du099I9NiX_6U0h1zpHX-196" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Du099I9NiX_6U0h1zpHX-174" target="Du099I9NiX_6U0h1zpHX-178">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2450" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2270" y="935" />
+              <mxPoint x="2430" y="935" />
+              <mxPoint x="2430" y="270" />
+            </Array>
+            <mxPoint x="2395" y="960" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
